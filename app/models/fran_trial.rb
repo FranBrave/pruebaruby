@@ -1,0 +1,2 @@
+class FranTrial < ApplicationRecord
+end

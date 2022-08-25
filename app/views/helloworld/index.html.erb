@@ -1,0 +1,10 @@
+<h1>Hello World</h1>
+
+Fecha de hoy: <%= Date.today %>
+<br>
+<br>
+<br>
+<%= @frantrial.each do |frantrial| %>
+    <h2><%= frantrial.title %></h2>
+    <h3><%= frantrial.description %></h3>
+<% end %>
